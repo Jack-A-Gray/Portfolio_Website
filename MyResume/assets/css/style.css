@@ -272,12 +272,14 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
-  background-size: cover;
+  width: 100%; /* Full width */
+  height: 120vh;
+  background: url("../img/jgray10@uiowa.edu-d7f5b154.jpg") top left / 50% 120vh no-repeat;
+  /* background-size is now set to cover 50% of the width (the left side) and 120% of the viewport height */
   position: relative;
 }
+
+
 
 @media (min-width: 992px) {
   #hero {
