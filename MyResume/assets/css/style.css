@@ -272,12 +272,14 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%; /* Full width */
+  width: 90%; /* Full width */
   height: 120vh;
-  background: url("../img/jgray10@uiowa.edu-d7f5b154.jpg") top left / 50% 120vh no-repeat;
-  /* background-size is now set to cover 50% of the width (the left side) and 120% of the viewport height */
+  background: url("../img/jgray10@uiowa.edu-d7f5b154.jpg") top right / 50% 120vh no-repeat;
+  /* This sets the background image to the right side of the container,
+     and it will cover 50% of the width (now the right side) and 120% of the viewport height */
   position: relative;
 }
+
 
 
 
