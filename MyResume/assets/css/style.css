@@ -109,7 +109,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important; /* Added 's' to specify seconds */
   }
 }
 
@@ -1173,11 +1173,12 @@ section {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 15px; /* Added 'px' as the unit */
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
 }
+
 
 #footer .social-links {
   margin: 0 0 40px 0;
