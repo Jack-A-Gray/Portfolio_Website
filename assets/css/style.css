@@ -949,7 +949,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 50vw; /* Adjusts to 50% of the viewport width */
-  max-width: 120px; /* Ensures it doesn't get too large on bigger screens */
+  max-width: 90px; /* Ensures it doesn't get too large on bigger screens */
   height: auto; /* Maintains the aspect ratio */
   border-radius: 50%; /* Keeps the round shape */
   border: 4px solid #fff; /* White border */
